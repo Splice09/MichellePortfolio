@@ -1,0 +1,14 @@
+{
+  "name": "michelle_shiraziefard_portfolio",
+  "version": "0.0.1",
+  "description": "Professional photography portfolio of Michelle Shiraziefard.",
+  "main": "server.js",
+  "author": "Patrick Fleming",
+  "license": "MIT",
+  "engines": {
+    "node": "9.2.0"
+  },
+  "dependencies": {
+    "connect": "3.4.1"
+  }
+}

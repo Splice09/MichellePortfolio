@@ -1,0 +1,15 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  min-width: 934px; }
+
+/* ================================================= */
+/* STYLE GOES HERE */
+/* ================================================= */
+p{
+  vertical-align: middle;
+  text-align:center;
+  font-size:50px;
+}
