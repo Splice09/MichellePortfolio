@@ -15,7 +15,7 @@ html, body {
 }
 
 #background{
-  width:100%;
+  height:800px;
   background: url('/public/photos/background.jpg') no-repeat center;
   background-size: cover;
   background-attachment: fixed;
