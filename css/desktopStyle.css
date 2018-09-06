@@ -33,11 +33,31 @@ html, body {
 }
 
 /* ================================================= */
+/* ABOUT */
+/* ================================================= */
+#about{
+  margin-left:400px;
+  margin-right:400px;
+}
+
+#about p{
+  font-size: 20px;
+}
+
+/* ================================================= */
 /* PORTFOLIO */
 /* ================================================= */
 #portfolio{
   height:500px;
   width:100%;
+  padding:100px;
+}
+
+#portfolio h2{
+  text-align: center;
+}
+
+#portfolioBoxContainer{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -49,6 +69,7 @@ html, body {
   width: 100px;
   height: 100px;
   background: green;
+  margin:50px;
 }
 
 /* ================================================= */
@@ -58,4 +79,8 @@ html, body {
   height:200px;
   width:100%;
   background:gray;
+}
+
+#contact h2{
+  text-align:center;
 }
