@@ -10,7 +10,7 @@ html, body {
 /* ================================================= */
 #bodyContainer{
   width:80%;
-  background: blue;
+  /*background: blue;*/
   margin:0 auto;
 }
 
@@ -35,6 +35,11 @@ html, body {
   background-attachment: fixed;
 }
 
+.sectionHeader{
+  font-size: 40px;
+  text-align:center;
+}
+
 /* ================================================= */
 /* HEADER */
 /* ================================================= */
@@ -43,7 +48,7 @@ html, body {
   vertical-align: middle;
   text-align:center;
   font-size:50px;
-  background: red;
+  /*background: red;*/
 }
 
 /* ================================================= */
@@ -66,10 +71,6 @@ html, body {
   width:100%;
 }
 
-#portfolio h2{
-  text-align: center;
-}
-
 #portfolioBoxContainer{
   margin-top:50px;
   margin-bottom:50px;
@@ -83,7 +84,7 @@ html, body {
 .portfolioBox{
   width: 100px;
   height: 100px;
-  background: green;
+  /*background: green;*/
   margin:50px;
 } 
 
@@ -98,8 +99,4 @@ html, body {
   height:200px;
   width:100%;
   background:gray;
-}
-
-#contact h2{
-  text-align:center;
 }
