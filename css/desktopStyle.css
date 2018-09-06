@@ -6,10 +6,56 @@ html, body {
   min-width: 934px; }
 
 /* ================================================= */
-/* STYLE GOES HERE */
+/* BODY */
 /* ================================================= */
-p{
+#bodyContainer{
+  width:80%;
+  background: blue;
+  margin:0 auto;
+}
+
+#background{
+  width:100%;
+  background: url('/public/photos/background.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* ================================================= */
+/* HEADER */
+/* ================================================= */
+#header{
+  width:100%;
   vertical-align: middle;
   text-align:center;
   font-size:50px;
+  background: red;
+}
+
+/* ================================================= */
+/* PORTFOLIO */
+/* ================================================= */
+#portfolio{
+  height:500px;
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: auto;
+  background:orange;
+}
+
+.portfolioBox{
+  width: 100px;
+  height: 100px;
+  background: green;
+}
+
+/* ================================================= */
+/* CONTACT */
+/* ================================================= */
+#contact{
+  height:200px;
+  width:100%;
+  background:gray;
 }
