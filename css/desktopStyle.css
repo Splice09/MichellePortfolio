@@ -61,6 +61,7 @@ html, body {
 /* ================================================= */
 #about{
   height: 400px;
+  background: white;
 }
 
 #textContainer{
@@ -78,6 +79,7 @@ html, body {
 #portfolio{
   height:400px;
   width:100%;
+  background:white;
 }
 
 #portfolioBoxContainer{
@@ -87,7 +89,6 @@ html, body {
   flex-wrap: wrap;
   justify-content: center;
   overflow: auto;
-  background:white;
 }
 
 .portfolioBox{
