@@ -61,14 +61,14 @@ html, body {
   font-size: 15px;
 }
 
-#anchorLink{
+.anchorLink{
   margin-left: 2%;
   margin-right: 2%;
   color: black; /* blue colors for links too */
   text-decoration: none; /* no underline */
 }
 
-#anchorLink:visited{
+.anchorLink:visited{
   color:black;
 }
 
