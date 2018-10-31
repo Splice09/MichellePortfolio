@@ -56,9 +56,20 @@ html, body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#jumpLinks{
+#anchorLinkContainer{
   display:inline;
   font-size: 15px;
+}
+
+#anchorLink{
+  margin-left: 2%;
+  margin-right: 2%;
+  color: black; /* blue colors for links too */
+  text-decoration: none; /* no underline */
+}
+
+#anchorLink:visited{
+  color:black;
 }
 
 /* Filler box is used to take up space where header covers the body container. */
