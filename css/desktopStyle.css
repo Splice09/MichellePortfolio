@@ -45,15 +45,20 @@ html, body {
 /* HEADER */
 /* ================================================= */
 #header{
-  position:fixed;
-  width:70%;
-  left:15%;
+  position: fixed;
+  width: 70%;
+  left: 15%;
   height: 150px;
   vertical-align: middle;
-  text-align:center;
-  font-size:50px;
+  text-align: center;
+  font-size: 50px;
   background: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#jumpLinks{
+  display:inline;
+  font-size: 15px;
 }
 
 /* Filler box is used to take up space where header covers the body container. */
@@ -70,8 +75,8 @@ html, body {
 }
 
 #textContainer{
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-left: 300px;
+  margin-right: 300px;
 }
 
 #about p{
