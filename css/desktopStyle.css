@@ -41,6 +41,13 @@ html, body {
   text-align:center;
 }
 
+.floatBlock{
+  position:relative;
+  height: 10px;
+  background: red;
+  top:50%;
+}
+
 /* ================================================= */
 /* HEADER */
 /* ================================================= */
