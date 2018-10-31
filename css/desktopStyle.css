@@ -41,14 +41,10 @@ html, body {
   text-align:center;
 }
 
-.imageContainer{
-  position:relative;
-}
-
 .floatBlock{
   position:absolute;
   height: 200px;
-  bottom: 10%;
+  bottom: 40%;
 }
 
 /* ================================================= */
