@@ -126,7 +126,6 @@ html, body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  overflow: auto;
 }
 
 .portfolioBox{
