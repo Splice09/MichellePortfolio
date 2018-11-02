@@ -162,3 +162,11 @@ html, body {
   width:100%;
   background:white;
 }
+
+#emailLink{
+  margin:50px;
+}
+
+#mailLinkContainer{
+  margin:0 auto;
+}
