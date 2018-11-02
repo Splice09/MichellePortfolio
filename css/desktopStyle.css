@@ -53,6 +53,17 @@ html, body {
   bottom: 10%;
 }
 
+#reference{
+  background: white;
+  font-size: 13px;
+  color: black; /* blue colors for links too */
+  text-decoration: none; /* no underline */
+}
+
+#reference a:visited{
+  color:black;
+}
+
 /* ================================================= */
 /* HEADER */
 /* ================================================= */
