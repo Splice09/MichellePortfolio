@@ -154,6 +154,17 @@ html, body {
   height:100px;
 }
 
+.galleryBox{
+  opacity: 0;
+  background:red;
+  position: absolute;
+  top: 10vh;
+  left: 10vw;
+  height: 90vh;
+  width: 90vw;
+  display: flex;
+}
+
 /* ================================================= */
 /* CONTACT */
 /* ================================================= */
