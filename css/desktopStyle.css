@@ -143,6 +143,7 @@ html, body {
   height: 100px;
   /*background: green;*/
   margin:50px;
+  cursor: pointer;
 } 
 
 .portfolioBox p{
