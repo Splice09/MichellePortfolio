@@ -6,4 +6,10 @@ $(document).ready(function(){
             opacity: 1
         }, 'fast'); 
     });
+
+    //HIDE GALLERY ON GALLERY BOX CLICK
+    $('.galleryBox').click(function(){
+        $('.galleryBox').fadeOut('fast');
+    });
+    
 });
