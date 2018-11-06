@@ -8,7 +8,7 @@ $(document).ready(function(){
     });
 
     //HIDE GALLERY ON GALLERY BOX CLICK
-    $(document.body).click(function(){
+    $('.galleryBox').click(function(){
         $('.galleryBox').fadeOut('fast');
     });
     
