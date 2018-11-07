@@ -17,21 +17,21 @@ html, body {
 
 #background1{
   height:600px;
-  background: url('/public/photos/background1.jpg') no-repeat center;
+  background: url('/public/photos/background1.gif') no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
 
 #background2{
   height:600px;
-  background: url('/public/photos/background2.jpg') no-repeat center;
+  background: url('/public/photos/background2.gif') no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
 
 #background3{
   height:600px;
-  background: url('/public/photos/background3.jpg') no-repeat center;
+  background: url('/public/photos/background3.gif') no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
