@@ -165,6 +165,14 @@ html, body {
   display: none;
 }
 
+.close {
+  height: 10vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+  cursor: pointer; }
+
 /* ================================================= */
 /* CONTACT */
 /* ================================================= */
