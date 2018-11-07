@@ -109,7 +109,7 @@ html, body {
 /* ABOUT */
 /* ================================================= */
 #about{
-  height: 400px;
+  overflow: auto;
   background: white;
 }
 
@@ -126,7 +126,7 @@ html, body {
 /* PORTFOLIO */
 /* ================================================= */
 #portfolio{
-  height:400px;
+  overflow: auto;
   width:100%;
   background:white;
 }
