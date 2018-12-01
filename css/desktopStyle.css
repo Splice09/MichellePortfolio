@@ -182,6 +182,10 @@ html, body {
   background:white;
 }
 
+.linkIcon{
+  margin:20px;
+}
+
 #instaLink{
   height:75px;
 }
