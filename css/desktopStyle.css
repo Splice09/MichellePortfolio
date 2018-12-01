@@ -182,11 +182,19 @@ html, body {
   background:white;
 }
 
+#instaLink{
+  height:75px;
+}
+
 #emailLink{
   height:75px;
 }
 
-#mailLinkContainer{
+#imdbLink{
+  height:75px;
+}
+
+#linkContainer{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
