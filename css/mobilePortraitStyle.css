@@ -1,0 +1,80 @@
+/* ================================================= */
+/* BODY */
+/* ================================================= */
+#bodyContainer{
+    width:100%;
+    -webkit-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+
+/* Filler box is used to take up space where header covers the body container. */
+#fillerBox{
+    height:120px;
+    -webkit-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+
+.sectionHeader{
+    font-size: 30px;
+    height: 80px;
+    line-height:80px;
+    -webkit-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+/* ================================================= */
+/* HEADER */
+/* ================================================= */
+#header{
+    width: 100%;
+    left: 0%;
+    height:120px;
+    font-size:40px;
+    -webkit-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+/* ================================================= */
+/* ABOUT */
+/* ================================================= */
+#about p{
+    font-size: 18px;
+    -webkit-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+/* ================================================= */
+/* PORTFOLIO */
+/* ================================================= */
+.icon{
+    height:50px;
+    -webkit-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+
+.portfolioBox{
+    width: 50px;
+    height: 50px;
+    margin:50px;
+    -webkit-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+} 
+
+.portfolioBox p{
+    text-align:left;
+    -webkit-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+
+.galleryBox{
+    top: 32vh;
+    height: 65vh;
+    -webkit-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+/* ================================================= */
+/* CONTACT */
+/* ================================================= */
+.linkIcon{
+    margin:20px;
+    height:50px;
+    -webkit-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
