@@ -55,7 +55,13 @@
     margin:50px;
     -webkit-transition: all 1s ease 0s;
     transition: all 1s ease 0s;
-  } 
+} 
+
+.portfolioBox p{
+    text-align:left;
+    -webkit-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
 /* ================================================= */
 /* CONTACT */
 /* ================================================= */

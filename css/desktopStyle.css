@@ -161,6 +161,8 @@ html, body {
 .portfolioBox p{
   text-align:center;
   font-size: 12px;
+  -webkit-transition: all 1s ease 0s;
+  transition: all 1s ease 0s;
 }
 
 .icon{
