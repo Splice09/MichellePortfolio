@@ -43,6 +43,11 @@ app.use('/public/', function(request, response){
                             response.write(file, "binary");
                             response.end();
                         }
+                        else if(fullPath =="/app/css/desktopPortraitStyle.css"){
+                            response.writeHeader(200, {"Content-Type": "text/css"});
+                            response.write(file, "binary");
+                            response.end();
+                        }
                         else if(fullPath =="/app/css/mobileLandscape.css"){
                             response.writeHeader(200, {"Content-Type": "text/css"});
                             response.write(file, "binary");
