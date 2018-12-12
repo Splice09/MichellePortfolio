@@ -22,6 +22,8 @@ html, body {
   background: url('/public/photos/background1.gif') no-repeat center;
   background-size: cover;
   background-attachment: fixed;
+  -webkit-transition: all 1s ease 0s;
+  transition: all 1s ease 0s;
 }
 
 #background2{

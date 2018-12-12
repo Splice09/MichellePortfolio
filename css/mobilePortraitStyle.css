@@ -21,6 +21,12 @@
     -webkit-transition: all 1s ease 0s;
     transition: all 1s ease 0s;
 }
+
+#background1{
+    background-position:-520px 50px;
+    -webkit-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
 /* ================================================= */
 /* HEADER */
 /* ================================================= */
