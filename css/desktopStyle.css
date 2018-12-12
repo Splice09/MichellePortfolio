@@ -43,6 +43,8 @@ html, body {
   text-align:center;
   height: 100px;
   line-height:100px;
+  -webkit-transition: all 1s ease 0s;
+  transition: all 1s ease 0s;
 }
 
 .imageContainer{
@@ -126,6 +128,8 @@ html, body {
 
 #about p{
   font-size: 20px;
+  -webkit-transition: all 1s ease 0s;
+  transition: all 1s ease 0s;
 }
 
 /* ================================================= */
@@ -150,6 +154,8 @@ html, body {
   /*background: green;*/
   margin:50px;
   cursor: pointer;
+  -webkit-transition: all 1s ease 0s;
+  transition: all 1s ease 0s;
 } 
 
 .portfolioBox p{
@@ -159,6 +165,8 @@ html, body {
 
 .icon{
   height:100px;
+  -webkit-transition: all 1s ease 0s;
+  transition: all 1s ease 0s;
 }
 
 .galleryBox{
@@ -190,8 +198,12 @@ html, body {
 
 .linkIcon{
   margin:20px;
+  height:75px;
+  -webkit-transition: all 1s ease 0s;
+  transition: all 1s ease 0s;
 }
 
+/*
 #instaLink{
   height:75px;
 }
@@ -203,7 +215,7 @@ html, body {
 #imdbLink{
   height:75px;
 }
-
+*/
 #linkContainer{
   display: flex;
   flex-wrap: wrap;
