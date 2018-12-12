@@ -3,6 +3,8 @@
 /* ================================================= */
 #bodyContainer{
     width:100%;
+    -webkit-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
 }
 /* ================================================= */
 /* HEADER */
@@ -10,6 +12,8 @@
 #header{
     width: 100%;
     left: 0%;
+    -webkit-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
 }
 /* ================================================= */
 /* ABOUT */
