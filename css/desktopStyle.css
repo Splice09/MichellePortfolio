@@ -13,6 +13,8 @@ html, body {
   width:70%;
   /*background: blue;*/
   margin:0 auto;
+  -webkit-transition: all 1s ease 0s;
+  transition: all 1s ease 0s;
 }
 
 #background1{
@@ -77,6 +79,8 @@ html, body {
   background: white;
   z-index: 10;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-transition: all 1s ease 0s;
+  transition: all 1s ease 0s;
 }
 
 #siteHeader{
