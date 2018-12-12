@@ -179,6 +179,8 @@ html, body {
   height: 70vh;
   width: 80vw;
   display: none;
+  -webkit-transition: all 1s ease 0s;
+  transition: all 1s ease 0s;
 }
 
 .close {
