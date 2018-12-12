@@ -17,6 +17,8 @@
 /* HEADER */
 /* ================================================= */
 #header{
+    width: 100%;
+    left: 0%;
     height:120px;
     font-size:120px;
     -webkit-transition: all 1s ease 0s;
