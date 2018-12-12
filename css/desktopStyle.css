@@ -177,7 +177,7 @@ html, body {
 /* CONTACT */
 /* ================================================= */
 #contact{
-  height:200px;
+  overflow: auto;
   width:100%;
   background:white;
 }
