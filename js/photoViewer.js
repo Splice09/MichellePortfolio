@@ -38,6 +38,10 @@ $(document).ready(function(){
                 break;
         }
         var thumbnailValue = $(this).data('value');
+
+        if(identifierValue == 1 && thumbnailValue == 6){
+            $('.image').css({height:50vh});
+        }
         $('.photoContainer').css({opacity: 0, display: 'flex'}).animate({
                     opacity: 1
             }, 'fast', function(){
