@@ -70,11 +70,17 @@
 }
 
 .galleryBox{
-    top: 32vh;
-    height: 65vh;
+    top: 20vh;
+    height: 75vh;
     -webkit-transition: all 1s ease 0s;
     transition: all 1s ease 0s;
 }
+
+.close {
+    height: 3vh;
+    -webkit-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+  }
 /* ================================================= */
 /* CONTACT */
 /* ================================================= */
