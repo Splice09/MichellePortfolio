@@ -70,8 +70,8 @@
 }
 
 .galleryBox{
-    top: 20vh;
-    height: 75vh;
+    top: 25vh;
+    height: 70vh;
     -webkit-transition: all 1s ease 0s;
     transition: all 1s ease 0s;
 }
