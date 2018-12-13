@@ -183,6 +183,11 @@ html, body {
   display: none;
   -webkit-transition: all 1s ease 0s;
   transition: all 1s ease 0s;
+  
+}
+
+.galleryBoxContainer{
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   overflow: auto; 
