@@ -38,10 +38,15 @@ $(document).ready(function(){
                 break;
         }
         var thumbnailValue = $(this).data('value');
-
+        
+        //Comparison logic for proper display resolution of panorama 
         if(identifierValue == 1 && thumbnailValue == 6){
             $('.image').css({height:'50vh'});
         }
+        else{
+            $('.image').css({height:'90vh'});
+        }
+        
         $('.photoContainer').css({opacity: 0, display: 'flex'}).animate({
                     opacity: 1
             }, 'fast', function(){
