@@ -1,17 +1,17 @@
 $(document).ready(function(){
     var photoUrls = [
-        '/public/photos/Portfolio/1.gif'
-        ,'/public/photos/Portfolio/2.gif'
-        ,'/public/photos/Portfolio/4.gif'
-        ,'/public/photos/Portfolio/5.gif'
-        ,'/public/photos/Portfolio/6.gif'
-        ,'/public/photos/Portfolio/7.gif'
-        ,'/public/photos/Portfolio/8.gif'
-        ,'/public/photos/Portfolio/9.gif'
-        ,'/public/photos/Portfolio/10.gif'
-        ,'/public/photos/Portfolio/11.gif'
-        ,'/public/photos/Portfolio/12.gif'
-        ,'/public/photos/Portfolio/13.gif'
+         '/public/photos/Portfolio/img1.gif'
+        ,'/public/photos/Portfolio/img2.gif'
+        ,'/public/photos/Portfolio/img4.gif'
+        ,'/public/photos/Portfolio/img5.gif'
+        ,'/public/photos/Portfolio/img6.gif'
+        ,'/public/photos/Portfolio/img7.gif'
+        ,'/public/photos/Portfolio/img8.gif'
+        ,'/public/photos/Portfolio/img9.gif'
+        ,'/public/photos/Portfolio/img10.gif'
+        ,'/public/photos/Portfolio/img11.gif'
+        ,'/public/photos/Portfolio/img12.gif'
+        ,'/public/photos/Portfolio/img13.gif'
     ]
     var tinyGif = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
     
