@@ -68,6 +68,7 @@ app.use('/public/', function(request, response){
             }
         }
         catch (e){
+            console.log(e);
             console.log("Something is horribly wrong!");
         }
     }
