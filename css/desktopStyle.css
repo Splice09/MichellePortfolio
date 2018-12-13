@@ -222,9 +222,10 @@ html, body {
   height: 100%;
   width: 100%;
   justify-content: center;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
+  z-index:10;
   background: black; 
 }
 
@@ -233,6 +234,17 @@ html, body {
   height: 90vh;
   padding: 10px;
   border: 2px solid white; 
+}
+
+#imageClose{
+  height: 4vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+  cursor: pointer; 
+  -webkit-transition: all 1s ease 0s;
+  transition: all 1s ease 0s;
 }
 
 /* ================================================= */

@@ -23,7 +23,6 @@ $(document).ready(function(){
             }, 'fast', function(){
                 $('.image').attr('src', photoUrls[thumbnailValue]);
         });
-        $('.photoCredit').css({opacity:0});
     });
     
     //CLEAR PHOTO SRC URL AND HIDE THE FRAME
