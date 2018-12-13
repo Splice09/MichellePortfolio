@@ -191,6 +191,7 @@ html, body {
   flex-wrap: wrap;
   justify-content: center;
   overflow: auto; 
+  margin-top:80px;
 }
 
 .close {
@@ -206,8 +207,8 @@ html, body {
 
 .thumbnail {
   margin: 20px;
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   border: 2px;
   border-style: solid;
   border-radius: 10px;
