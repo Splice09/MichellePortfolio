@@ -17,6 +17,7 @@ $(document).ready(function(){
     var elementsPhotoUrls = [
          '/public/photos/ElementsOfArt/img1.gif'
         ,'/public/photos/ElementsOfArt/img2.gif'
+        ,'/public/photos/ElementsOfArt/img3.gif'
         ,'/public/photos/ElementsOfArt/img4.gif'
         ,'/public/photos/ElementsOfArt/img5.gif'
         ,'/public/photos/ElementsOfArt/img6.gif'
