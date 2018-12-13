@@ -183,6 +183,9 @@ html, body {
   display: none;
   -webkit-transition: all 1s ease 0s;
   transition: all 1s ease 0s;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: auto; 
 }
 
 .close {
@@ -241,19 +244,6 @@ html, body {
   transition: all 1s ease 0s;
 }
 
-/*
-#instaLink{
-  height:75px;
-}
-
-#emailLink{
-  height:75px;
-}
-
-#imdbLink{
-  height:75px;
-}
-*/
 #linkContainer{
   display: flex;
   flex-wrap: wrap;
