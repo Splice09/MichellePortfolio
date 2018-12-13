@@ -1,5 +1,6 @@
 $(document).ready(function(){
-    var photoUrls = [
+    var photoUrls;
+    var portfolioPhotoUrls = [
          '/public/photos/Portfolio/img1.gif'
         ,'/public/photos/Portfolio/img2.gif'
         ,'/public/photos/Portfolio/img4.gif'
@@ -13,10 +14,28 @@ $(document).ready(function(){
         ,'/public/photos/Portfolio/img12.gif'
         ,'/public/photos/Portfolio/img13.gif'
     ]
+    var elementsPhotoUrls = [
+         '/public/photos/ElementsOfArt/img1.gif'
+        ,'/public/photos/ElementsOfArt/img2.gif'
+        ,'/public/photos/ElementsOfArt/img4.gif'
+        ,'/public/photos/ElementsOfArt/img5.gif'
+        ,'/public/photos/ElementsOfArt/img6.gif'
+        ,'/public/photos/ElementsOfArt/img7.gif'
+    ];
     var tinyGif = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
     
     //LOAD PHOTO URL BASED ON THUMBNAIL CLICK
     $('.thumbnail').click(function(){
+        var identifierValue = $(this).data('identifier');
+        switch(identifierValue) {
+            case 0:
+                photoUrls = portfolioPhotoUrls;
+                break;
+            case 1:
+                photoUrls = elementsPhotoUrls;
+            default:
+                break;
+        }
         var thumbnailValue = $(this).data('value');
         $('.photoContainer').css({opacity: 0, display: 'flex'}).animate({
                     opacity: 1
