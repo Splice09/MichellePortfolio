@@ -40,7 +40,7 @@ $(document).ready(function(){
         var thumbnailValue = $(this).data('value');
 
         if(identifierValue == 1 && thumbnailValue == 6){
-            $('.image').css({height:50vh});
+            $('.image').css({height:'50vh'});
         }
         $('.photoContainer').css({opacity: 0, display: 'flex'}).animate({
                     opacity: 1
