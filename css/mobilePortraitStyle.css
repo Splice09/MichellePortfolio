@@ -23,7 +23,7 @@
 }
 
 #background1{
-    background-position:-520px 50px;
+    background-position: -100vw 15vh;
     -webkit-transition: all 1s ease 0s;
     transition: all 1s ease 0s;
 }
