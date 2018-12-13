@@ -24,8 +24,8 @@
 
 #background1{
     background-position: -100vw 15vh;
-    -webkit-transition: all 1s ease 0s;
-    transition: all 1s ease 0s;
+    -webkit-transition: all 2s ease 0s;
+    transition: all 2s ease 0s;
 }
 /* ================================================= */
 /* HEADER */
