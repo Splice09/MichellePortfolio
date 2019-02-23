@@ -28,7 +28,7 @@ $(document).ready(function(){
     //LOAD PHOTO URL BASED ON THUMBNAIL CLICK
     $('.thumbnail').click(function(){
         var identifierValue = $(this).data('identifier');
-        var photoUrlValue = $(this).data('photoUrl');
+        var photoUrlValue = $(this).data('photo-url');
         // switch(identifierValue) {
         //     case 0:
         //         photoUrls = portfolioPhotoUrls;
