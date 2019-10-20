@@ -1,3 +1,8 @@
+// this will disable right-click on all images
+window.oncontextmenu = function () {
+    return false;     // cancel default menu
+}
+
 var client = {
     init: function() {
         var o=this;
@@ -7,9 +12,6 @@ var client = {
             e.preventDefault()
         });
 
-         // this will disable right-click on all images
-        window.oncontextmenu = function () {
-            return false;     // cancel default menu
-        }
+        
    }
 };
