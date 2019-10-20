@@ -8,7 +8,7 @@ var client = {
          });
 
          // this will disable right-click on all images
-         $("img").on("contextmenu",function(e){
+         $('#imageShell').on("contextmenu",function(e){
               return false;
          });
    }
