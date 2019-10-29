@@ -77,6 +77,7 @@
 }
 
 .image {
+    height: auto;
     width: 90vw;
 }
 
