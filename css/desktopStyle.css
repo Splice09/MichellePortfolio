@@ -18,7 +18,7 @@ html, body {
 }
 
 #background1{
-  height:600px;
+  height:100em;
   background: url('/public/photos/background1.gif') no-repeat center;
   background-size: cover;
   background-attachment: fixed;
