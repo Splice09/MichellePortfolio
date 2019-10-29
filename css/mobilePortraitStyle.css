@@ -76,6 +76,10 @@
     transition: all 1s ease 0s;
 }
 
+.image {
+    width: 90vw;
+}
+
 .close {
     height: 3vh;
     -webkit-transition: all 1s ease 0s;
