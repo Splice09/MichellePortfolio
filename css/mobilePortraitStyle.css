@@ -25,16 +25,19 @@
 @supports (-webkit-overflow-scrolling: touch) {
     /* CSS specific to iOS devices */ 
     #background1{
+        height:25em;
         -webkit-transition: all 1s ease 0s;
         transition: all 1s ease 0s;
         background-attachment: scroll;
     }
       
     #background2{
+        height:25em;
         background-attachment: scroll;
     }
     
     #background3{
+        height:25em;
         background-attachment: scroll;
     }
   }
@@ -42,6 +45,7 @@
 @supports not (-webkit-overflow-scrolling: touch) {
     /* CSS for other than iOS devices */ 
     #background1{
+        height:25em;
         background-position: -100vw 0vh;
         -webkit-transition: all 1s ease 0s;
         transition: all 1s ease 0s;
