@@ -22,20 +22,32 @@
     transition: all 1s ease 0s;
 }
 
-#background1{
-    background-position: 0vw 15vh;
-    -webkit-transition: all 1s ease 0s;
-    transition: all 1s ease 0s;
-    background-attachment: scroll;
-}
-  
-#background2{
-    background-attachment: scroll;
+@supports (-webkit-overflow-scrolling: touch) {
+    /* CSS specific to iOS devices */ 
+    #background1{
+        -webkit-transition: all 1s ease 0s;
+        transition: all 1s ease 0s;
+        background-attachment: scroll;
+    }
+      
+    #background2{
+        background-attachment: scroll;
+    }
+    
+    #background3{
+        background-attachment: scroll;
+    }
+  }
+
+@supports not (-webkit-overflow-scrolling: touch) {
+    /* CSS for other than iOS devices */ 
+    #background1{
+        background-position: 0vw 15vh;
+        -webkit-transition: all 1s ease 0s;
+        transition: all 1s ease 0s;
+    }
 }
 
-#background3{
-    background-attachment: scroll;
-}
 /* ================================================= */
 /* HEADER */
 /* ================================================= */
