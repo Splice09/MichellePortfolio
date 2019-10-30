@@ -20,7 +20,7 @@ html, body {
 #background1{
   height:35em;
   background: url('/public/photos/background4.jpg') no-repeat center;
-  background-position: 0vw -25vh;
+  background-position: 0vw 10vh;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
