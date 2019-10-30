@@ -18,7 +18,7 @@ html, body {
 }
 
 #background1{
-  height:100em;
+  height:40em;
   background: url('/public/photos/background1.gif') no-repeat center;
   background-size: cover;
   background-attachment: fixed;
@@ -27,21 +27,21 @@ html, body {
 }
 
 #background2{
-  height:600px;
+  height:40em;
   background: url('/public/photos/background2.gif') no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
 
 #background3{
-  height:600px;
+  height:40em;
   background: url('/public/photos/background3.gif') no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .sectionHeader{
-  font-size: 40px;
+  font-size: 2.5em;
   text-align:center;
   height: 100px;
   line-height:100px;
