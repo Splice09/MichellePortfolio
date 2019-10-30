@@ -18,7 +18,7 @@ html, body {
 }
 
 #background1{
-  height:50vh;
+  height:35em;
   background: url('/public/photos/background1.gif') no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
@@ -30,7 +30,7 @@ html, body {
 }
 
 #background2{
-  height:50vh;
+  height:35em;
   background: url('/public/photos/background2.gif') no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
@@ -40,7 +40,7 @@ html, body {
 }
 
 #background3{
-  height:50vh;
+  height:35em;
   background: url('/public/photos/background3.gif') no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
