@@ -44,6 +44,9 @@ $(document).ready(function(){
         if(identifierValue == 1 && thumbnailValue == 6){
             $('.image').css({height:'50vh'});
         }
+        else {
+            $('.image').css({height:'unset'});
+        }
         
         $('.photoContainer').css({opacity: 0, display: 'flex'}).animate({
                     opacity: 1
