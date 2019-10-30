@@ -19,7 +19,8 @@ html, body {
 
 #background1{
   height:35em;
-  background: url('/public/photos/background4.gif') no-repeat center;
+  background: url('/public/photos/background4.jpg') no-repeat center;
+  background-position: 0vw -25vh;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
