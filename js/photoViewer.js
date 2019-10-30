@@ -45,7 +45,7 @@ $(document).ready(function(){
             $('.image').css({height:'50vh'});
         }
         else {
-            $('.image').css();
+            $('.image').css({height:''});
         }
         
         $('.photoContainer').css({opacity: 0, display: 'flex'}).animate({
