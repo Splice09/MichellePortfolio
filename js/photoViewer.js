@@ -29,6 +29,7 @@ $(document).ready(function(){
     $('.thumbnail').click(function(){
         var identifierValue = $(this).data('identifier');
         var photoUrlValue = $(this).data('photo-url');
+        var weirdRatio = $(this).data('weird-ratio');
         // switch(identifierValue) {
         //     case 0:
         //         photoUrls = portfolioPhotoUrls;
@@ -41,7 +42,7 @@ $(document).ready(function(){
         var thumbnailValue = $(this).data('value');
         
         //Comparison logic for proper display resolution of panorama 
-        if(identifierValue == 1 && thumbnailValue == 6){
+        if(weirdRatio == 1){
             $('.image').css({height:'50vh'});
         }
         else {
